@@ -1,8 +1,10 @@
 import "./ImageSection.css"
 function ImageSection(){
     return (
+        
         <div className="Image-Section">
             <img src="https://imgdb.net/storage/uploads/c94f958c590eb413f670934c9a46e57a5a46ce545a1dfdcc143cef0f8664f702.jpg"></img>
+            <h4 className="image-text">How to Create an Affiliate Marketing Website</h4>
         </div>
     )
 }

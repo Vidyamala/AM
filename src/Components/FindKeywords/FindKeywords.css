@@ -1,5 +1,5 @@
 .find-keywords-container{
-    background-color: rgb(215, 226, 229);
+    background-color:#EAF0F6;
     padding: 2rem 5rem;
 }
 .find-keyword-tool{
@@ -32,4 +32,12 @@
 }
 .find-keyword-sec .find-keyword-tool{
     margin-right: 3rem;
+}
+@media screen and (max-width:1000px) {
+    .find-keyword-sec{
+        flex-direction: column;
+    }
+    .find-keywords-container{
+        padding: 2rem 2rem;
+    }
 }

@@ -1,7 +1,7 @@
 import { data } from "../../Mock data/Cards"
 import "./Cards.css"
 import ShowMoreText from "react-show-more-text";
-function Cards(){
+function Cards({data}){
     const executeOnClick=(isExpanded)=> {
         console.log(isExpanded);
     }

@@ -1,5 +1,7 @@
 import Cards from "../Cards/Cards";
+import { data } from "../../Mock data/Cards"
 import "./Step1.css"
+import { kitchenItem } from "../../Mock data/KitchenItems";
 function Step1(){
     return (
         <div className="container Step1-container">
@@ -7,9 +9,10 @@ function Step1(){
             <div className="step1-cont">
                 <h4>Baby Products</h4>
                 <hr></hr>
-                <Cards />
+                <Cards data={data}/>
                 <h4>Kitchen Tools</h4>
                 <hr></hr>
+                <Cards data={kitchenItem}/>
             </div>
         </div>
     )
