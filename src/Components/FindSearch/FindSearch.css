@@ -1,0 +1,35 @@
+.find-searchs-container{
+    background-color: rgb(215, 226, 229);
+    padding: 2rem 5rem;
+}
+.find-search-tool{
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+
+}
+.find-searchs-container h4{
+    margin-bottom: 2rem;
+}
+.find-search-tool div{
+   
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    background-color: #10B98E;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 1.5rem;
+   
+}
+.find-search-sec{
+    display: flex;
+}
+.find-search-sec .find-search-tool > div{
+    border: 1px solid #10B98E;
+    background-color: white;
+    color: #10B98E ;
+}
+.find-search-sec .find-search-tool{
+    margin-right: 3rem;
+}

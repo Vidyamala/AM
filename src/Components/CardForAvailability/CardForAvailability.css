@@ -1,0 +1,25 @@
+.Available-container{
+    border: 1px solid rgb(110, 207, 110);
+    background-color: rgb(210, 240, 210);
+    margin: 0.5rem 0;
+    display: flex;
+    padding:1rem;
+    color: rgb(48, 179, 48);
+    border-radius: 10px;
+}
+.Available-container> i {
+    padding: 0.13rem 0.3rem;
+    color: rgb(48, 179, 48);
+}
+.Available-container p{
+    margin: 0;
+    padding: 0;
+}
+.Available-container button{
+
+    background-color: rgb(70, 180, 70);
+    border-radius: 10px;
+}
+.btnn{
+    padding: 0.2rem 1rem;
+}

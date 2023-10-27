@@ -1,0 +1,35 @@
+.find-keywords-container{
+    background-color: rgb(215, 226, 229);
+    padding: 2rem 5rem;
+}
+.find-keyword-tool{
+    display: flex;
+    margin: 1rem 0;
+    align-items: center;
+
+}
+.find-keywords-container h4{
+    margin-bottom: 2rem;
+}
+.find-keyword-tool div{
+   
+    padding: 0.8rem 3rem;
+    border-radius: 5px;
+    background-color: #10B98E;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    margin-right: 1.5rem;
+   
+}
+.find-keyword-sec{
+    display: flex;
+}
+.find-keyword-sec .find-keyword-tool > div{
+    border: 1px solid #10B98E;
+    background-color: white;
+    color: #10B98E ;
+}
+.find-keyword-sec .find-keyword-tool{
+    margin-right: 3rem;
+}

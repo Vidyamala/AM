@@ -1,0 +1,20 @@
+.Navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    background-color: white;
+}
+.Navbar-menu{
+    display: flex;
+    align-items: center;
+}
+.Navbar-menu >li{
+    list-style: none;
+    padding: 1rem;
+}
+@media screen and (max-width:375px) {
+    .Navbar-menu >li{
+        padding: 0.5rem;
+    }
+}

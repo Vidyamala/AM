@@ -1,0 +1,10 @@
+.Image-Section{
+    width: 100%;
+    height: 50vh;
+    margin-bottom: 3rem;
+}
+.Image-Section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

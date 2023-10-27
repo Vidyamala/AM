@@ -1,0 +1,66 @@
+.Check-availability-container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0.5px 0.5px 1.5px rgba(41, 41, 41,0.6);
+}
+.Check-availability-container input{
+    padding: 0.4rem 1rem;
+    outline: none;
+    border: none;
+    background-color: rgb(230, 227, 227);
+}
+.Check-availability-container button{
+    margin: 10px 0;
+    background-color: #10B98E;
+    padding: 8px 0;
+    color: whitesmoke;
+    border: none;
+}
+.check-availability-main{
+    padding: 2rem 5rem;
+    background-color: rgb(215, 226, 229);
+}
+.check-availability-main p{
+    margin-bottom: 0;
+}
+.check-availability-heading{
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+@media screen and (max-width:1200px) {
+    .Check-availability-container{
+        width: 40%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .Check-availability-container{
+        width: 50%;
+    }
+}
+@media screen and (max-width:900px) {
+    .Check-availability-container{
+        width: 70%;
+    }
+}
+@media screen and (max-width:750px) {
+    .Check-availability-container{
+        width: 90%;
+    }
+    .check-availability-main{
+        padding: 2rem 3rem;
+        background-color: rgb(215, 226, 229);
+    }
+}
+@media screen and (max-width:500px) {
+    .Check-availability-container{
+        width: 100%;
+    }
+    .check-availability-main{
+        padding: 2rem 1rem;
+        background-color: rgb(215, 226, 229);
+    }
+}

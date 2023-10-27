@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+.Step3-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+.Step3-header{
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    padding: 1rem 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #10B98E;
+    color: white;
+}
+.Step3-header >p{
+    font-weight: bold;
+    margin-bottom: 0;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+
+
+
