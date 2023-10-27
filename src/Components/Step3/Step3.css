@@ -24,3 +24,23 @@
 
 
 
+@media  screen and (max-width:400px) {
+    .Step3-header{
+        padding: 1rem 1rem;
+    }
+   
+}
+@media  screen and (max-width:470px) {
+    .Step3-header >p{
+        font-size: large;
+    }
+    
+   
+}
+@media  screen and (max-width:400px) {
+    .Step3-header >p{
+        font-size: medium;
+    }
+    
+   
+}

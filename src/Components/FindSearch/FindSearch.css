@@ -41,3 +41,20 @@
         padding: 2rem 2rem;
     }
 }
+@media  screen and (max-width:400px) {
+    .find-search-tool div{
+        padding: 1rem 1rem;
+    }
+   
+}
+@media  screen and (max-width:450px) {
+    .find-search-tool div{
+        padding: 1rem 1rem;
+    }
+    .find-search-sec .find-keyword-tool{
+        margin-right: 0.5rem;
+    }
+    .find-searchs-container{
+        padding: 2rem 1rem;
+    }
+}

@@ -22,3 +22,15 @@
     font-weight: 700;
     font-family: 'Montserrat', sans-serif;
 }
+@media screen and (max-width:800px) {
+    .image-text{
+        font-size: 60px;
+        line-height:  65px;
+    }
+}
+@media screen and (max-width:500px) {
+    .image-text{
+        font-size: 50px;
+        line-height:  55px;
+    }
+}

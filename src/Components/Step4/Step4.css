@@ -23,4 +23,24 @@
 }
 
 
+@media  screen and (max-width:400px) {
+    .Step4-header{
+        padding: 1rem 1rem;
+    }
+   
+}
 
+@media  screen and (max-width:470px) {
+    .Step4-header >p{
+        font-size: large;
+    }
+    
+   
+}
+@media  screen and (max-width:400px) {
+    .Step4-header >p{
+        font-size: medium;
+    }
+    
+   
+}

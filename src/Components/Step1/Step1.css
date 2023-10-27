@@ -33,4 +33,26 @@
     .step1-cont{
         padding: 2rem 1rem;
     }
+   
+}
+@media  screen and (max-width:400px) {
+    .Step1-header{
+        padding: 1rem 1rem;
+    }
+    
+   
+}
+@media  screen and (max-width:470px) {
+    .Step1-header >p{
+        font-size: large;
+    }
+    
+   
+}
+@media  screen and (max-width:400px) {
+    .Step1-header >p{
+        font-size: medium;
+    }
+    
+   
 }
